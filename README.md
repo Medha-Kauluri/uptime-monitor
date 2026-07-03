@@ -120,6 +120,7 @@ Add:
 ```
 https://this-domain-definitely-does-not-exist-123456789.com
 ```
+Newly added URLs initially appear as UNKNOWN until the first scheduled health check executes.
 
 After the scheduler runs, it should display:
 
@@ -155,7 +156,7 @@ A simple cloud deployment for this MVP could use:
 
 ![Dashboard](screenshots/dashboard.jpeg)
 
-### API Documentation!
+### API Documentation
 
 ![Swagger](screenshots/Swagger.png)
 
